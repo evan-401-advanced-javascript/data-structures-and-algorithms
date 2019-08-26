@@ -11,10 +11,7 @@ let validator = module.exports = {};
  * @returns {boolean}
  */
 
-validator.isValid = (input, rules) => {
-  // return true;
-
-  if(rules === 'pushIt') {
-
-    return typeof input === 'number';
+validator.isValid = (value) => {
+  //should return the tail of the linked list with a value of 7
+  push()
   }
