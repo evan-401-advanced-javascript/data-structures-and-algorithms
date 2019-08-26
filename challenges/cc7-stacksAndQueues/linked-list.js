@@ -8,7 +8,6 @@ class Stack {
   }
   push(value){
     const newHead = new Node(value);
-    let current;
 
     if (this.head === null) {
       this.head = newHead;
@@ -16,6 +15,7 @@ class Stack {
       newHead.next = this.head;
       this.head = newHead;
     }
+     console.log(this.head);
   }
 
   pop(){
@@ -33,6 +33,14 @@ class Stack {
     }
   }
 
+  test() {
+    if (this.top) {
+      let itemToPop = this.top;
+      this.top = this.top.next;
+
+      return itemToPop;
+    }
+  }
   peek(){
     let current = this.head;
     while(current.next !== null) {
@@ -50,4 +58,33 @@ class Stack {
   }
 }
 
+class Queue{
+  enqueue () {
+    const newRear = new Node(value);
+    if (this.rear) {
+      newRear.next = this.rear;
+      this.rear = newRear;
+    }
+    this.rear = newRear;
+    console.log(newRear);
+    return newRear;
+
+  }
+
+  dequeue() {
+    let current = this.front;
+    let valueDequeued = this.front;
+    while(current !== null) {
+      if (current.next === this.front) {
+        current.next = null;
+        this.front = current;
+      }
+      current = current.next
+    }
+    console.log(valueDequeued);
+    return valueDequeued;
+  }
+}
+
 module.exports = Stack;
+module.exports = Queue;
