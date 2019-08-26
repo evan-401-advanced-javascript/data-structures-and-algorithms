@@ -1,0 +1,19 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "Evan Brecht-Curry",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "superagent": "^5.1.0"
+  }
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="902cb957-c4fa-4d26-a61b-298930fedd85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@babel/parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@babel/parser/typings/babel-parser.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@babel/types/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@babel/types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__core/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__generator/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__generator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__template/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__traverse/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/babel__traverse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-lib-coverage/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-lib-coverage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-lib-report/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-lib-report/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-reports/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/istanbul-reports/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/stack-utils/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/stack-utils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/yargs-parser/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/yargs-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/yargs/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/yargs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/@types/yargs/yargs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/jest/build/jest.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/jest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/docs/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/agent-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/agent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/http2wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/parsers/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/parsers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/parsers/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/parsers/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/parsers/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/node/unzip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/request-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/response-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/node_modules/superagent/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/README.me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/__tests__/validator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/lib/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc6/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/validator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc2/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc2/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc4/package.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1PwDVhWdOesvkc1Pde7SEXm2MLO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902cb957-c4fa-4d26-a61b-298930fedd85" name="Default Changelist" comment="" />
+      <created>1566776290669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566776290669</updated>
+      <workItem from="1566776292080" duration="2515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
