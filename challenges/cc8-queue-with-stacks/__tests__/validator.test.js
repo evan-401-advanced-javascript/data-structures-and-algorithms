@@ -1,12 +1,16 @@
 'use strict';
 
-const validator = require('../lib/validator');
+const PseudoQueue = require('../Index');
+
+const queue = new PseudoQueue();
 
 describe('validator module performs basic validation of', () => {
 
   // TODO: Make this series of tests less repetitive ... DRY it out
 
   it('validate if a new value is added', () => {
-    expect(validator.enqueue(20)).toEqual([5, 10, 15]);
+    queue.enqueue(20);
+    expect(queue.input).toEqual([5,10,15,20]);
+    expect(queue.dequeue()).toEqual([5])
   });
 });
