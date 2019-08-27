@@ -16,9 +16,6 @@
       <change beforePath="$PROJECT_DIR$/../cc5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566776290669</updated>
-      <workItem from="1566776292080" duration="7467000" />
+      <workItem from="1566776292080" duration="7810000" />
     </task>
     <servers />
   </component>
