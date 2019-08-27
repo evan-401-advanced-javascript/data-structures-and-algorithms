@@ -1,28 +1,29 @@
 'use strict';
 
-const Stack = require('./stacks');
-const Queue = require('./queues');
+class PseudoQueue {
+  constructor() {
+    this.input = [5,10,15];
+    this.output = [];
+  }
 
-const stack = new Stack();
-const queue = new Queue();
+  enqueue(value) {
+    this.input.push(value);
+    console.log('pushing ', this.input);
+    return this.input;
+  }
 
-// stack.push(1);
-// stack.push(2);
-// stack.push(3);
-// stack.push(4);
-// stack.push(5);
-//
-// stack.pop();
-//
-// stack.peek();
-//
-// stack.traverse();
-//
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(3);
-queue.enqueue(4);
-queue.enqueue(5);
 
+  dequeue() {
+  //push input into output backwards
+    for(let i = 0; i < this.input.length; i++) {
+      this.output.push(this.input[i]);
+
+    }
+    this.output.pop();
+    console.log('popping ', this.output)
+  }
+}
+const queue = new PseudoQueue();
+
+queue.enqueue(20);
 queue.dequeue();
-queue.traverseQueue();
