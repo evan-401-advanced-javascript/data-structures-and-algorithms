@@ -1,31 +1,33 @@
 'use strict';
 
-class PseudoQueue {
-  constructor() {
-    this.input = [5,10,15];
-    this.output = [];
-  }
+const Node = require('./node');
 
-  enqueue(value) {
-    this.input.push(value);
-    console.log('pushing ', this.input);
-  }
+class List {
+ constructor() {
+  this.head = new Node(null);
+}
 
+mergeLists(LL1, LL2){
+  const newHead = new Node(value);
+  let current1 = LL.head;
+  let current2 = LL.head;
+  while(current1.next !== null) {
+    if(current2.next !== null) {
+    } else {
+      let LLStore1 = current1.next;
+      let LLStore2 = current2.next;
 
-  dequeue() {
-  //push input into output backwards
-    for(let i = 0; i < this.input.length; i++) {
-      this.output.push(this.input[i]);
+      current1.next = current2;
+      current1.next.next = LLStore1;
+
+      current1 = current1.next.next;
+      current2 = current2.next;
     }
-    for(let i = 0; i < this.output.length; i++) {
-      this.input.pop();
-    }
-    return this.output.pop();
+    current1.next = current2;
   }
 }
-const queue = new PseudoQueue();
 
-queue.enqueue(20);
-queue.dequeue();
+}
 
-module.exports = PseudoQueue;
+
+module.exports = List;

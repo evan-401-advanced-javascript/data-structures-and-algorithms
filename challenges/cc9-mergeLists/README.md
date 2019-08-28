@@ -1,14 +1,15 @@
 # Challenge Summary
 <!-- Short summary or background information -->
-This challenge is to use to stacks to simulate a queue. Using these stacks the class should be able to add and remove values in a FIFO fashion. 
+This challenge is to merge 2 linked lists together in the first linked list.
 
 ## Challenge Description
 <!-- Description of the challenge -->
-Add remove values from a queue using stacks.
+Merge linked lists into one alternating values.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-my approach was to represent the stacks as arrays and use the push and pop methods to add and remove values from the virtual queue. This solution is O(n) for time and 0(n) for space because I am using stacks.
+My approach was to store the next value of each array and then use that to set the next value of array 1 and array 2 and then chain them together. I would then move down the list and repeat the process. For the last value of LL2 I would set it = null in the case that it was shorter. 
+ This solution is O(n) for time because I am using 1 loop to iterate over 2 linked lists and 0(1) for space because I am just reusing the linked lists we were given.
 
 ## Solution
 <!-- Embedded whiteboard image -->
