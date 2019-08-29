@@ -11,7 +11,6 @@ function brackets (string) {
         return false;
       }else if (string[i] === stack.pop()) {
         stack.pop();
-        console.log('popped charecter');
       }
     }
   }
@@ -23,7 +22,5 @@ function brackets (string) {
     return false
   }
 }
-
-brackets('([]){hello}');
 
 module.exports = brackets;
