@@ -6,14 +6,24 @@ function brackets (string) {
     if (string[i] === '(' || string[i] === '{' || string[i] === '[') {
       stack.push(string[i]);
     } else if (string[i] === ')' || string[i] === '}' || string[i] === ']') {
-      if (string[i] === stack.pop()) {
-        console.log('popped charecter', stack.pop());
+      if (stack.length === 0) {
+        console.log(false);
+        return false;
+      }else if (string[i] === stack.pop()) {
+        stack.pop();
+        console.log('popped charecter');
       }
     }
-    console.log('stack', stack);
+  }
+  if (stack.length === 0) {
+    console.log(true);
+    return true
+  } else if (stack.length > 0) {
+    console.log(false);
+    return false
   }
 }
 
-brackets('{([hi])}');
+brackets('([]){hello}');
 
 module.exports = brackets;
