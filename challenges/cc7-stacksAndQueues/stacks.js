@@ -5,18 +5,18 @@ const Node = require('./node');
 class Stack {
   constructor(){
     this.top = new Node(null);
-  }
-  push(value){
-    const newHead = new Node(value);
+}
+push(value){
+  const newHead = new Node(value);
 
-    if (this.top.value === null) {
-      this.top = newHead;
-    } else {
-      newHead.next = this.top;
-      this.top = newHead;
-    }
-     console.log(this.top);
+  if (this.top.value === null) {
+    this.top = newHead;
+  } else {
+    newHead.next = this.top;
+    this.top = newHead;
   }
+  console.log(this.top);
+}
 
   pop(){
     let current = this.top;

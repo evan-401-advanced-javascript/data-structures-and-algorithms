@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902cb957-c4fa-4d26-a61b-298930fedd85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" afterDir="false" />
@@ -13,9 +14,11 @@
       <change beforePath="$PROJECT_DIR$/../cc3/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/linked-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc4/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cc5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cc5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/stacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566776290669</updated>
       <workItem from="1566776292080" duration="7810000" />
+      <workItem from="1567114339929" duration="288000" />
     </task>
     <servers />
   </component>
@@ -76,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
