@@ -9,7 +9,7 @@ function brackets (string) {
       if (stack.length === 0) {
         console.log(false);
         return false;
-      }else if (string[i] === stack.pop()) {
+      }else if (string[i] === stack[0]) {
         stack.pop();
       }
     }
