@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="461664df-7fc6-40d6-8a1e-a3da858d653f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/__tests__/validator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cc2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/cc2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/lib/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/validator.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/docs/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/agent-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/is-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/agent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/http2wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/parsers/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/parsers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/parsers/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/parsers/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/parsers/urlencoded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/node/unzip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/request-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/response-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1PcvglIvtrL2PztwDdU0Er7ZkeJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cc5-linked-list-implementation" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/../cc5-linked-list-implementation/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../cc5-linked-list-implementation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Jest.validator module performs basic validation of.Will return true when finding a value within the linked list that exists">
+    <configuration name="validator module performs basic validation of.Will return true when finding a value within the linked list that exists" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/../cc5-linked-list-implementation/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/../cc5-linked-list-implementation" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/../cc5-linked-list-implementation/__tests__/validator.test.js" />
+      <test-names>
+        <test-name value="validator module performs basic validation of" />
+        <test-name value="Will return true when finding a value within the linked list that exists" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="linked-list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../cc5-linked-list-implementation/linked-list.js" working-dir="$PROJECT_DIR$/../cc5-linked-list-implementation">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.validator module performs basic validation of.Will return true when finding a value within the linked list that exists" />
+        <item itemvalue="Node.js.linked-list.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="461664df-7fc6-40d6-8a1e-a3da858d653f" name="Default Changelist" comment="" />
+      <created>1566186312260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566186312260</updated>
+      <workItem from="1566186313385" duration="4215000" />
+      <workItem from="1567298267601" duration="2074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../cc5-linked-list-implementation/linked-list.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

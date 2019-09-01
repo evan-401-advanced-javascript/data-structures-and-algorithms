@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage"
   },
   "keywords": [],
-  "author": "Vinicio Vladimir Sanchez Trejo <vladimirsan@gmail.com> (http://vladimirsan.com)",
+  "author": "Evan Brecht-Curry",
   "license": "ISC",
   "dependencies": {
+    "jest": "^24.9.0",
     "superagent": "^5.1.0"
   }
 }
