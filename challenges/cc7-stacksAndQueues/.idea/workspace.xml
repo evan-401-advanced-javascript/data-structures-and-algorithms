@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902cb957-c4fa-4d26-a61b-298930fedd85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc2/.idea/workspace.xml" afterDir="false" />
@@ -14,10 +13,13 @@
       <change beforePath="$PROJECT_DIR$/../cc3/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/linked-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc4/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/validator.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues.js" beforeDir="false" afterPath="$PROJECT_DIR$/queues.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/stacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +36,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,12 +56,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.validator module performs basic validation of.Can successfully peek the next item on the stack">
+    <configuration name="validator module performs basic validation of" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/validator.test.js" />
+      <test-names>
+        <test-name value="validator module performs basic validation of" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validator module performs basic validation of.Can successfully peek the next item on the stack" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/validator.test.js" />
+      <test-names>
+        <test-name value="validator module performs basic validation of" />
+        <test-name value="Can successfully peek the next item on the stack" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.validator module performs basic validation of.Can successfully peek the next item on the stack" />
+        <item itemvalue="Jest.validator module performs basic validation of" />
         <item itemvalue="Node.js.Index.js" />
       </list>
     </recent_temporary>
@@ -73,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566776290669</updated>
       <workItem from="1566776292080" duration="7810000" />
-      <workItem from="1567114339929" duration="288000" />
+      <workItem from="1567114339929" duration="2026000" />
+      <workItem from="1567133723780" duration="5314000" />
     </task>
     <servers />
   </component>
