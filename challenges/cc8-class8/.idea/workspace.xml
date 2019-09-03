@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5d5174d-abaa-4ab3-b7d4-d97ebd604cfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cc8-class8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1QJ2x48pMFruevSyksCJ1QQA4qO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/__tests__" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__tests__" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d5174d-abaa-4ab3-b7d4-d97ebd604cfb" name="Default Changelist" comment="" />
+      <created>1567474621589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567474621589</updated>
+      <workItem from="1567474622717" duration="521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

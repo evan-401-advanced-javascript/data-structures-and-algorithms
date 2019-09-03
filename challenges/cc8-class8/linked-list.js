@@ -18,6 +18,7 @@ class LinkedList {
       newHead.next = this.head;
       this.head = newHead;
     }
+    return this.head.value;
   }
 
   valueAtK(k) {
@@ -28,13 +29,12 @@ class LinkedList {
       console.log(current.value);
       current = current.next;
     }
-    for(let index of length - k - 1) {
+    current = this.head;
+    for(let i = 0; i < length - k - 1; i++) {
       current = current.next;
     }
-    return current;
+    return current.value;
   }
-
-
 
   traverse() {
     let current = this.head;
@@ -42,6 +42,7 @@ class LinkedList {
       console.log(current.value);
       current = current.next;
     }
+    return this.head.value;
   }
 }
 
