@@ -25,16 +25,16 @@ one.right = twenty;
 let leafArr =[];
 const recursiveDepthFirst = (node) => {
 
-  if(node === null) {
+  if(!node) {
     return
   }
-  if(node.left == null && node.right == null) {
+  if(!node.left && !node.right) {
     leafArr.push(node.value);
   }
 
   console.log(node.value);
-  recursiveDepthFirst(node.left); // vinicio - "pushing" values into the call stack
-  recursiveDepthFirst(node.right); // vinicio - "pushing" values into the call stack
+  recursiveDepthFirst(node.left);
+  recursiveDepthFirst(node.right);
 };
 
 recursiveDepthFirst(ten);
