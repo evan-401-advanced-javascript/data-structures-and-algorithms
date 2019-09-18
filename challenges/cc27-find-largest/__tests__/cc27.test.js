@@ -32,6 +32,6 @@ describe('validator module performs basic validation of', () => {
 
     let largest = null;
 
-    expect(largestNode(ten).toEqual(20))
+    expect(largestNode(ten)).toEqual(20);
   });
 });
