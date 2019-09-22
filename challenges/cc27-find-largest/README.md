@@ -1,3 +1,6 @@
+# Links
+* [travis](https://travis-ci.com/EvanBC1/data-structures-and-algorithm)
+
 # Challenge Summary
 <!-- Short summary or background information -->
 This challenge is to traverse a binary tree and to return the largest node.
