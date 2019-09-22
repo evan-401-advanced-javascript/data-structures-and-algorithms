@@ -14,7 +14,7 @@ This solution is of O(n) for time because I am using a loop. It is O (n) for spa
 
 ## Solution
 <!-- Embedded whiteboard image -->
-No white-boarding
+![Whiteboard](whiteboard.jpg)
 
 // Steps
 //

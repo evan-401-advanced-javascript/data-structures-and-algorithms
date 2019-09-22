@@ -9,5 +9,9 @@ linkedList.insert(2);
 linkedList.insert(3);
 linkedList.insert(1);
 linkedList.insert(2);
+linkedList.insert(2);
+linkedList.insert(4);
+
 linkedList.removeDuplicates();
+
 linkedList.traverse();

@@ -15,28 +15,30 @@ class LinkedList {
   }
 
   removeDuplicates () {
+
+    let hash = new Map();
+    let frontPosition = this.head;
+    let backPosition = null;
+    let uniqueValues = [];
+    let count = 0;
+
     if (!this.head || !this.head.next) {
       return;
     }
 
-    let firstPosition;
-    let secondPosition;
-    let hash = new Map();
-    let nodes = {};
+    while (frontPosition) {
+      uniqueValues.push(frontPosition.value);
 
-    firstPosition = this.head;
-    secondPosition = firstPosition.next;
-    nodes[firstPosition.data] = true;
+      if (hash.get(uniqueValues[count]) === undefined) {
+        hash.set(uniqueValues[count], true);
+        backPosition = frontPosition;
+        frontPosition = frontPosition.next;
 
-    while (secondPosition) {
-      let data = secondPosition.data;
-      if (hash.get(firstPosition) === undefined) {
-        hash.set(firstPosition, true);
-        firstPosition.next = secondPosition.next;
-      } else if (hash.get(firstPosition) === true) {
-        firstPosition = secondPosition;
+      } else if (hash.get(uniqueValues[count]) === true) {
+        frontPosition = frontPosition.next;
+        backPosition.next = frontPosition;
       }
-      secondPosition = secondPosition.next;
+      count ++;
     }
   };
   
@@ -44,8 +46,7 @@ class LinkedList {
     let current = this.head;
     let linkedArray = [];
     while (current.next !== null) {
-      console.log('test', current.value);
-      linkedArray.push(current.value)
+      linkedArray.push(current.value);
       current = current.next;
     }
     console.log(linkedArray);
