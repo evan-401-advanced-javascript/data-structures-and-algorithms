@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cade212f-4c05-42cb-91fb-52158103a0cc" name="Default Changelist" comment="" />
+    <list default="true" id="cade212f-4c05-42cb-91fb-52158103a0cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/validator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.me" beforeDir="false" afterPath="$PROJECT_DIR$/../README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/array-reverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2019_08_15 2_51 PM Office Lens.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/whiteboard.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cc4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc5-linked-list-implementation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cc7-stacksAndQueues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc8-queue-with-stacks/__tests__/validator.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cc9-mergeLists/__tests__/validator.test.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +29,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1PUalk3ZzJb05ZKJfdhPys3m2HZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +67,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565931281636</updated>
-      <workItem from="1565931282802" duration="711000" />
+      <workItem from="1565931282802" duration="904000" />
+      <workItem from="1567306072588" duration="750000" />
+      <workItem from="1567471418247" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="adding photos">
       <created>1565932029252</created>
@@ -48,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565932029252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding photos">
+      <created>1565932082834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565932082834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

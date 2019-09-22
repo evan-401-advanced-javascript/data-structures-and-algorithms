@@ -1,0 +1,19 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "<!-- Short summary or background information --> This challenge is to merge 2 linked lists together in the first linked list.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "Evan Brecht-Curry",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "superagent": "^5.1.0"
+  }
+}

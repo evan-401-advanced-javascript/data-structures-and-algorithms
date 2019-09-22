@@ -9,7 +9,6 @@ class PseudoQueue {
   enqueue(value) {
     this.input.push(value);
     console.log('pushing ', this.input);
-    return this.input;
   }
 
 
@@ -17,13 +16,16 @@ class PseudoQueue {
   //push input into output backwards
     for(let i = 0; i < this.input.length; i++) {
       this.output.push(this.input[i]);
-
     }
-    this.output.pop();
-    console.log('popping ', this.output)
+    for(let i = 0; i < this.output.length; i++) {
+      this.input.pop();
+    }
+    return this.output.pop();
   }
 }
 const queue = new PseudoQueue();
 
 queue.enqueue(20);
 queue.dequeue();
+
+module.exports = PseudoQueue;
