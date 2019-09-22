@@ -25,27 +25,21 @@ one.right = twenty;
 
 let largest = null;
 
-const pathLength = (node, largest) => {
+const largestNode = (node, largest) => {
 
-  if(!node) {
-    return
-  }
+  const pathLength = (node, largest) => {
 
-  if(!largest || largest < node.value) {
-    largest = node.value
-  }
+    if(!node) {
+      return largest;
+    }
 
-    pathLength(node.left, largest);
-    pathLength(node.right, largest);
+    if(!largest || largest < node.value) {
+      largest = node.value
+    }
 
-    return largest;
+      largest = pathLength(node.left, largest);
+      largest = pathLength(node.right, largest);
+    return largest
+  };
+  return pathLength(ten);
 };
-
-
-
-// O(n) time, O(h) space
-
-pathLength(ten);
-console.log(largest);
-
-module.exports = pathLength;
