@@ -1,19 +1,26 @@
 {
-  "name": "linked-list",
+  "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "jest --verbose --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evan-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
   "keywords": [],
-  "author": "Evan Brecht-Curry",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evan-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/evan-401-advanced-javascript/data-structures-and-algorithms#readme",
   "dependencies": {
-    "jest": "^24.9.0",
-    "superagent": "^5.1.0"
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-react": "^7.14.3"
   }
 }
