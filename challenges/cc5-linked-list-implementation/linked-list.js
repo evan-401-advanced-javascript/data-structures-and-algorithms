@@ -12,7 +12,7 @@ class LinkedList {
     this.head = newNode;
     return this.head.value;
   }
-  includes(value) {
+  includes(value)  {
     let current = this.head;
     while(current.next !== null) {
       if(current.value === value){
