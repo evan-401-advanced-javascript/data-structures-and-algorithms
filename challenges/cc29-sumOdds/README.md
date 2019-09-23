@@ -13,7 +13,7 @@ My approach is to recursively traverse the tree adding up all the odd numbered n
  This solution is O(n) for time because I am using recursion to loop through the binary tree. 
  
  The space is 0(H) for the worst case and log(n) for the average case for space because I am creating a stack that will no more than the height of the tree. Howe
-
+.
 ## Solution
 <!-- Embedded whiteboard image -->
 ![Whiteboard](whiteboard.jpg)
