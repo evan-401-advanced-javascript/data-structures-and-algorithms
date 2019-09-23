@@ -3,31 +3,33 @@
 const Node = require('./node');
 
 class LinkedList {
-  constructor(){
-    this.head = new Node (null);
+  constructor() {
+    this.head = new Node(null);
   }
-  insert(value){
-    let newNode = new Node(value);
+
+  insert(value) {
+    const newNode = new Node(value);
     newNode.next = this.head;
     this.head = newNode;
     return this.head.value;
   }
-  includes(value)  {
+
+  includes(value) {
     let current = this.head;
-    while(current.next !== null) {
-      if(current.value === value){
-        console.log(true, current.value,' = ' , value);
+    while (current.next !== null) {
+      if (current.value === value) {
+        console.log(true, current.value, ' = ', value);
         return true;
       }
       current = current.next;
-      }
-      return false;
     }
+    return false;
+  }
 
   toString() {
     let current = this.head;
     let linkedListString = 'toString ';
-    while(current !== null) {
+    while (current !== null) {
       linkedListString += current.value.toString();
       current = current.next;
     }
@@ -37,10 +39,10 @@ class LinkedList {
 
   traverse() {
     let current = this.head;
-    let linkedArray = [];
-    while(current !== null) {
+    const linkedArray = [];
+    while (current !== null) {
       console.log('test', current.value);
-      linkedArray.push(current.value)
+      linkedArray.push(current.value);
       current = current.next;
     }
     return linkedArray;

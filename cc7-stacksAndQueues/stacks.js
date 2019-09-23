@@ -3,18 +3,19 @@
 const Node = require('./node');
 
 class Stack {
-  constructor(){
+  constructor() {
     this.bottom = new Node(null);
-}
-push(value){
-  let newNode= new Node(value);
-  newNode.next = this.bottom;
-  this.bottom = newNode;
-  return this.bottom.value;
-}
+  }
 
-  pop(){
-    let current = this.bottom;
+  push(value) {
+    const newNode = new Node(value);
+    newNode.next = this.bottom;
+    this.bottom = newNode;
+    return this.bottom.value;
+  }
+
+  pop() {
+    const current = this.bottom;
     if (this.bottom) {
       this.bottom = current.next;
       current.next = null;
@@ -22,9 +23,9 @@ push(value){
     return current.value;
   }
 
-  peek(){
+  peek() {
     let current = this.bottom;
-    while(current.next !== null) {
+    while (current.next !== null) {
       current = current.next;
     }
     return current.value;
@@ -32,7 +33,7 @@ push(value){
 
   traverse() {
     let current = this.bottom;
-    while(current !== null) {
+    while (current !== null) {
       current = current.next;
     }
   }

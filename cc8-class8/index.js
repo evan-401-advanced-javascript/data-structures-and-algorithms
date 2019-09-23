@@ -15,5 +15,3 @@ linkedList.insert(50);
 linkedList.valueAtK(2);
 
 linkedList.traverse();
-
-

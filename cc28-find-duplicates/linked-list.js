@@ -8,18 +8,17 @@ class LinkedList {
   }
 
   insert(value) {
-    let newNode = new Node(value);
+    const newNode = new Node(value);
     newNode.next = this.head;
     this.head = newNode;
     return this.head.value;
   }
 
-  removeDuplicates () {
-
-    let hash = new Map();
+  removeDuplicates() {
+    const hash = new Map();
     let frontPosition = this.head;
     let backPosition = null;
-    let uniqueValues = [];
+    const uniqueValues = [];
     let count = 0;
 
     if (!this.head || !this.head.next) {
@@ -33,18 +32,17 @@ class LinkedList {
         hash.set(uniqueValues[count], true);
         backPosition = frontPosition;
         frontPosition = frontPosition.next;
-
       } else if (hash.get(uniqueValues[count]) === true) {
         frontPosition = frontPosition.next;
         backPosition.next = frontPosition;
       }
-      count ++;
+      count++;
     }
-  };
+  }
   
   traverse() {
     let current = this.head;
-    let linkedArray = [];
+    const linkedArray = [];
     while (current.next !== null) {
       linkedArray.push(current.value);
       current = current.next;

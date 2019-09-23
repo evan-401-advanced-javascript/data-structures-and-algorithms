@@ -2,7 +2,7 @@
 
 class PseudoQueue {
   constructor() {
-    this.input = [5,10,15];
+    this.input = [5, 10, 15];
     this.output = [];
   }
 
@@ -13,11 +13,11 @@ class PseudoQueue {
 
 
   dequeue() {
-  //push input into output backwards
-    for(let i = 0; i < this.input.length; i++) {
+  // push input into output backwards
+    for (let i = 0; i < this.input.length; i++) {
       this.output.push(this.input[i]);
     }
-    for(let i = 0; i < this.output.length; i++) {
+    for (let i = 0; i < this.output.length; i++) {
       this.input.pop();
     }
     return this.output.pop();

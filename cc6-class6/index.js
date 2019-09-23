@@ -14,5 +14,3 @@ linkedList.insertBefore(20, 15);
 linkedList.appendRecursively(40);
 
 linkedList.traverse();
-
-

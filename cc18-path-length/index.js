@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Node = require('./Node');
 
@@ -27,22 +27,21 @@ let childFound = false;
 let path = 0;
 
 const pathLength = (node, parent, child) => {
-
-  if(!node) {
-    return
+  if (!node) {
+    return;
   }
-  if(!childFound) {
+  if (!childFound) {
     pathLength(node.left, parent, child);
     pathLength(node.right, parent, child);
   }
-  if(childFound && !parentFound) {
+  if (childFound && !parentFound) {
     path++;
-    if(node.value === parent) {
+    if (node.value === parent) {
       path--;
       parentFound = true;
     }
   }
-  if(node.value === child) {
+  if (node.value === child) {
     childFound = true;
   }
 };

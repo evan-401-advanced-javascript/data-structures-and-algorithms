@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Node = require('./Node');
 
@@ -25,21 +25,20 @@ ten.right = fourteen;
 
 fourteen.left = thirteen;
 
-  const sumOddNodes = (node, oddSum = 0) => {
+const sumOddNodes = (node, oddSum = 0) => {
+  if (!node) {
+    return oddSum;
+  }
 
-    if(!node) {
-      return oddSum;
-    }
+  if (node.value % 2 !== 0) {
+    oddSum += node.value;
+  }
 
-    if(node.value % 2 !== 0) {
-      oddSum += node.value;
-    }
+  oddSum = sumOddNodes(node.left, oddSum);
+  oddSum = sumOddNodes(node.right, oddSum);
+  return oddSum;
+};
 
-      oddSum = sumOddNodes(node.left, oddSum);
-      oddSum = sumOddNodes(node.right, oddSum);
-    return oddSum
-  };
+console.log(sumOddNodes(eight));
 
-  console.log(sumOddNodes(eight));
-
-  module.exports = sumOddNodes;
+module.exports = sumOddNodes;

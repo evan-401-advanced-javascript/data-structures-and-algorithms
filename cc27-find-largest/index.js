@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Node = require('./Node');
 
@@ -23,23 +23,21 @@ seven.right = twelve;
 one.right = twenty;
 
 
-let largest = null;
+const largest = null;
 
 const largestNode = (node, largest) => {
-
   const pathLength = (node, largest) => {
-
-    if(!node) {
+    if (!node) {
       return largest;
     }
 
-    if(!largest || largest < node.value) {
-      largest = node.value
+    if (!largest || largest < node.value) {
+      largest = node.value;
     }
 
-      largest = pathLength(node.left, largest);
-      largest = pathLength(node.right, largest);
-    return largest
+    largest = pathLength(node.left, largest);
+    largest = pathLength(node.right, largest);
+    return largest;
   };
   return pathLength(ten);
 };

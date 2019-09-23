@@ -30,7 +30,7 @@ class LinkedList {
       current = current.next;
     }
     current = this.head;
-    for(let i = 0; i < length - k - 1; i++) {
+    for (let i = 0; i < length - k - 1; i++) {
       current = current.next;
     }
     return current.value;

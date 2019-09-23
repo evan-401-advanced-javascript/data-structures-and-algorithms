@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Node = require('./Node');
 
@@ -22,13 +22,12 @@ seven.right = twelve;
 
 one.right = twenty;
 
-let leafArr =[];
+const leafArr = [];
 const recursiveDepthFirst = (node) => {
-
-  if(!node) {
-    return
+  if (!node) {
+    return;
   }
-  if(!node.left && !node.right) {
+  if (!node.left && !node.right) {
     leafArr.push(node.value);
   }
 
