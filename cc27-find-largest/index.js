@@ -41,3 +41,5 @@ const largestNode = (node, largest) => {
   };
   return pathLength(ten);
 };
+
+module.exports = largestNode;

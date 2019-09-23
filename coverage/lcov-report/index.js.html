@@ -27,12 +27,12 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>5/5</span>
+        <span class='fraction'>6/6</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>1/1</span>
+        <span class='fraction'>2/2</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -90,8 +90,7 @@
 <a name='L42'></a><a href='#L42'>42</a>
 <a name='L43'></a><a href='#L43'>43</a>
 <a name='L44'></a><a href='#L44'>44</a>
-<a name='L45'></a><a href='#L45'>45</a>
-<a name='L46'></a><a href='#L46'>46</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L45'></a><a href='#L45'>45</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -103,7 +102,6 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -116,78 +114,77 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">44x</span>
-<span class="cline-any cline-yes">24x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">9x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
 &nbsp;
 const Node = require('./Node');
 &nbsp;
-const eight = new Node(8);
-const three = new Node(3);
-const one = new Node(1);
-const six = new Node(6);
-const four = new Node(4);
-const seven = new Node(7);
 const ten = new Node(10);
-const fourteen = new Node(14);
-const thirteen = new Node(13);
+const seven = new Node(7);
+const five = new Node(5);
+const one = new Node(1);
+const two = new Node(2);
+const eleven = new Node(11);
+const twelve = new Node(12);
+const twenty = new Node(20);
 &nbsp;
-eight.left = three;
-eight.right = ten;
+five.left = one;
+five.right = two;
 &nbsp;
-three.left = one;
-three.right = six;
+ten.left = seven;
+ten.right = five;
 &nbsp;
-six.left = four;
-six.right = seven;
+seven.left = eleven;
+seven.right = twelve;
 &nbsp;
-ten.right = fourteen;
+one.right = twenty;
 &nbsp;
-fourteen.left = thirteen;
 &nbsp;
-  const sumOddNodes = (node, oddSum = 0) =&gt; {
+const largest = null;
 &nbsp;
-    if(!node) {
-      return oddSum;
+const largestNode = (node, largest) =&gt; {
+  const pathLength = (node, largest) =&gt; {
+    if (!node) {
+      return largest;
     }
 &nbsp;
-    if(node.value % 2 !== 0) {
-      oddSum += node.value;
+    if (!largest || largest &lt; node.value) {
+      largest = node.value;
     }
 &nbsp;
-      oddSum = sumOddNodes(node.left, oddSum);
-      oddSum = sumOddNodes(node.right, oddSum);
-    return oddSum
+    largest = pathLength(node.left, largest);
+    largest = pathLength(node.right, largest);
+    return largest;
   };
+  return pathLength(ten);
+};
 &nbsp;
-  console.log(sumOddNodes(eight));
-&nbsp;
-  module.exports = sumOddNodes;
-&nbsp;</pre></td></tr>
+module.exports = largestNode;</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Sep 19 2019 18:35:12 GMT-0700 (Pacific Daylight Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Sep 23 2019 16:58:24 GMT-0700 (Pacific Daylight Time)
 </div>
 </div>
 <script src="prettify.js"></script>
