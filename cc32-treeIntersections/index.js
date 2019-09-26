@@ -31,7 +31,7 @@ const three2 = new Node(3);
 const eight2 = new Node(8);
 const one2 = new Node(1);
 const five2 = new Node(5);
-const two2 = new Node(3);
+const two2 = new Node(2);
 
 three2.left = eight2;
 three2.right = one2;
@@ -41,26 +41,23 @@ eight2.left = five2;
 five2.right = two2;
 
 function findSimilarities() {
-  let tracker1 = treeOne(eight);
-  let tracker2 = treeOne(three2);
+  let values = treeOne(eight).concat(treeOne(three2));
   const hash = new Map();
   const union = [];
   const intersection = [];
+  console.log(values);
 
-  for (let i = 0; i < tracker1.length; i++) {
-    intersection.push(tracker1[i]);
-    hash.set(tracker1, true);
-  }
 
-  for (let i = 0; i < tracker2.length; i++) {
-    if (hash.get(tracker2[i]) === undefined) {
-      hash.set(tracker2[i], true);
-    } else if (hash.get(tracker2[i]) === true) {
-      intersection.push(tracker2[i]);
+  for (let i = 0; i < values.length; i++) {
+    if (hash.get(values[i]) === undefined) {
+      hash.set(values[i], true);
+      intersection.push(values[i]);
+    } else if (hash.get(values[i]) === true) {
+      union.push(values[i]);
     }
   }
 
-  console.log(intersection)
+  console.log('intersection: ', intersection, 'union: ', union);
 
 }
 
